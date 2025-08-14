@@ -1,19 +1,21 @@
-export function Show(current,setCurrent){
-console.log(current)
+// i use this before i use Redux
 
-let {firstNumber,secondNumber}=setCurrent.payload
-if(setCurrent.type==="added"){
-    return Number.parseInt(firstNumber)+Number.parseInt(secondNumber)
-}else if(setCurrent.type==="Substract"){
-        return Number.parseInt(firstNumber) - Number.parseInt(secondNumber)
+// export function Show(current,setCurrent){
+// console.log(current)
 
-}else if(setCurrent.type==="multiply"){
-        return Number.parseInt(firstNumber) * Number.parseInt(secondNumber)
+// let {firstNumber,secondNumber}=setCurrent.payload
+// if(setCurrent.type==="added"){
+//     return Number.parseInt(firstNumber)+Number.parseInt(secondNumber)
+// }else if(setCurrent.type==="Substract"){
+//         return Number.parseInt(firstNumber) - Number.parseInt(secondNumber)
 
-}else if(setCurrent.type==="divide"){
-        return Number.parseInt(firstNumber) /  Number.parseInt(secondNumber)
+// }else if(setCurrent.type==="multiply"){
+//         return Number.parseInt(firstNumber) * Number.parseInt(secondNumber)
 
-}
+// }else if(setCurrent.type==="divide"){
+//         return Number.parseInt(firstNumber) /  Number.parseInt(secondNumber)
 
-//Calculator Reduce
-}
+// }
+
+// //Calculator Reduce
+// }
